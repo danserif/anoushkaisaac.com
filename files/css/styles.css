@@ -576,6 +576,9 @@ p.caption {
 	padding: 10px 40px 0 0;
 	line-height: 1.4;
 }
+p.link {
+	padding-bottom: 10px;
+}
 
 p.intro {
 	font-size: 28px;
@@ -738,8 +741,7 @@ footer {
 	.images {
 		padding: 100px 0 60px 0;
 	}
-	.row,
-	.bonus-row {
+	.row {
 		display: block;
 		max-width: 615px;
 	}
@@ -755,6 +757,9 @@ footer {
 		flex: 100%;
 		padding: 0;
 	}
+	.home .arrow {
+		padding-top: 60px;
+	}
 	.desktop {
 		display: none;
 	}
@@ -764,20 +769,6 @@ footer {
 	}
 	td {
 		padding-right: 40px;
-	}
-	hr.large {
-		margin: 30px 0 30px 0;
-	}
-}
-
-@media only screen and (max-width: 320px) {
-	h1 {
-		font-size: 56px;
-		line-height: 66px;
-	}
-	h2 {
-		font-size: 18px;
-		line-height: 24px;
 	}
 }
 
