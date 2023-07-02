@@ -516,6 +516,10 @@ h3 {
 	margin: 0;
 }
 
+h3.sub {
+	font-size: 32px;
+}
+
 h4,
 h5 {
 	font-weight: bold;
