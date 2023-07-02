@@ -516,7 +516,7 @@ h3 {
 	margin: 0;
 }
 
-h3.sub {
+h3.alt {
 	font-size: 32px;
 }
 
@@ -746,6 +746,9 @@ footer {
 		line-height: 26px;
 		padding: 10px 0 10px 0;
 		max-width: 615px;
+	}
+	h3.alt {
+		font-size: 18px;
 	}
 	p.caption {
 		padding: 10px 0 0 0;
