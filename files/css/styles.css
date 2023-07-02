@@ -530,6 +530,12 @@ h4 {
 	opacity: 0.4;
 }
 
+h5 {
+	font-size: 16px;
+	text-transform: none;
+	opacity: 0.8;
+}
+
 section {
 	max-width: 640px;
 }
@@ -577,6 +583,9 @@ p.caption {
 	line-height: 1.4;
 	margin-bottom: 10px;
 }
+.work p.caption {
+	margin-bottom: 30px;
+}
 
 p.link {
 	padding-bottom: 10px;
@@ -601,6 +610,12 @@ blockquote {
 hr {
 	margin: 40px 0 20px 0;
 	border-top: 1px solid #dddddd;
+}
+
+hr.large {
+	margin: 50px 0 30px 0;
+	border-top: 1px solid #dddddd;
+	opacity: 0.8;
 }
 
 .opacity {
