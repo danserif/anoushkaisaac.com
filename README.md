@@ -2,6 +2,6 @@
 
 ## I love working collaboratively to build and grow exceptional, authentic brands and products that earn their place in people’s hearts.
 
-This is my résumé, as well as a selection of case studies highlighting my work.
+This is my resume, as well as a selection of case studies highlighting my work.
 
 You can get in touch by [email](mailto:anoushkaisaac@gmail.com).
