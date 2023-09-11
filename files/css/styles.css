@@ -660,7 +660,9 @@ footer {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (max-width: 1680px) {
-	.home header,
+	.home header {
+		max-width: 1040px;
+	}
 	.work header {
 		max-width: 920px;
 	}
@@ -683,6 +685,9 @@ footer {
 	}
 }
 @media only screen and (max-width: 1380px) {
+	.home header {
+		max-width: 840px;
+	}
 	.anchor {
 		float: right;
 		margin-left: 8%;
