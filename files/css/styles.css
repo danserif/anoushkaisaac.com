@@ -692,7 +692,8 @@ footer {
 		float: right;
 		margin-left: 8%;
 	}
-	.desktop {
+	.desktop,
+	.menu {
 		display: none;
 	}
 }
@@ -715,6 +716,31 @@ footer {
 	nav a {
 		opacity: 1;
 	}
+	/* Mobile Menu */
+	.menu .hide {
+		display: none;
+	}
+	.menu {
+		display: inline;
+	}
+	.mobile ul {
+		overflow: hidden;
+		position: relative;
+		margin-top: 20px;
+		padding: 20px 0px 30px 0;
+		border-top: 1px solid #dddddd;
+	}
+	.mobile a {
+		display: block;
+		line-height: 1.6em;
+	}
+	.mobile a i.icon {
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 24px;
+	}
+	/* -- */
 	.home header {
 		padding-top: 40px;
 	}

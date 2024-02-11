@@ -53,6 +53,36 @@
 					<li><a class="anchor" href="/#work">Work</a></li>
 					<li><a class="anchor" href="/#about">About</a></li>
 				</ul>
+				<div class="mobile menu">
+					<ul id="menu" class="hide">
+						<li><a href="/#about">About</a></li>
+						<li><a href="/#work">Work</a></li>
+						<li><a href="mailto:anoushkaisaac@gmail.com">Contact</a></li>
+						<br />
+						<li class="opacity">Case Studies</li>
+						<li><a href="/case-studies/safestack/">SafeStack</a></li>
+						<li><a href="/case-studies/figure-nz/">Figure.NZ</a></li>
+						<li><a href="/case-studies/kaibosh/">Kaibosh</a></li>
+						<br />
+						<li><a href="https://www.linkedin.com/in/anoushkaisaac/">LinkedIn</a></li>
+					</ul>
+					</ul>
+					<a href="javascript:void(0);" onclick="mobileMenu()">
+						<i class="icon">
+							<svg width="15" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75.75h14M.75 10.75h14M.75 5.75h14" stroke="#000" stroke-linejoin="round" /></svg
+						></i>
+					</a>
+					<script>
+						function mobileMenu() {
+							var x = document.getElementById("menu");
+							if (x.style.display === "block") {
+								x.style.display = "none";
+							} else {
+								x.style.display = "block";
+							}
+						}
+					</script>
+				</div>
 			</nav>
 
 			<header>
