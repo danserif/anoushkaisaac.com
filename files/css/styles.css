@@ -624,6 +624,12 @@ hr.large {
 	opacity: 0.8;
 }
 
+hr.massive {
+	margin: 0px 10px 80px 0;
+	border-top: 1px solid #dddddd;
+	opacity: 0.8;
+}
+
 .opacity {
 	opacity: 0.4;
 }
@@ -643,6 +649,10 @@ hr.large {
 
 .desktop {
 	display: inline;
+}
+
+.hide {
+	display: none;
 }
 
 .menu {
@@ -699,6 +709,9 @@ footer {
 	.desktop,
 	.menu {
 		display: none;
+	}
+	.hide {
+		display: inline;
 	}
 }
 @media only screen and (max-width: 900px) {
@@ -829,6 +842,14 @@ footer {
 	}
 	.desktop {
 		display: none;
+	}
+	.hide {
+		display: inline;
+	}
+	hr.massive {
+		margin-bottom: 40px;
+		margin-right: 0px;
+		max-width: 615px;
 	}
 	table {
 		padding-top: 40px;
