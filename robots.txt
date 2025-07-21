@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://anoushkaisaac.com/sitemap.txt
+
+Disallow: /rocketspark/
+Disallow: /rocketspark/index.html
