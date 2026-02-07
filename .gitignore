@@ -2,3 +2,8 @@
 .DS_Store
 # WIP files
 *~
+# Prettier
+.prettierignore
+.prettierrc
+# Server
+server.py
